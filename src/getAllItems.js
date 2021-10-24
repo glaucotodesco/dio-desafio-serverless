@@ -26,5 +26,5 @@ const getAllItems = async (event) => {
 };
 
 module.exports = {
-    handler: fetchItems,
+    handler: getAllItems,
 };

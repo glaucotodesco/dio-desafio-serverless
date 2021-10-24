@@ -29,12 +29,12 @@ functions:
     handler: src/insertItem.handler
     events:
       - httpApi:
-          path: /item
+          path: /items
           method: post
   getAllItems:
     handler: src/getAllItems.handler
     events:
-      - http:
+      - httpApi:
           path: /items
           method: get
           
